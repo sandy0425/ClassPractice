@@ -1,0 +1,25 @@
+/* || General setup */
+  p, ul {
+    border: 2px solid purple;
+    padding: .5em;/*調整字與邊框的距離*/
+  }
+
+  .block, li{/*有點的部分表示要找class*/
+    border: 2px solid blue;
+    padding: .5em;/*調整字與邊框的距離*/
+  }
+
+  ul{
+      display: flex;
+      list-style: none;
+  }
+   
+ li {
+    margin: 0px 10px;/*0->上下距離，10->左右距離*/
+  }
+
+  .block{
+      display: block;
+    /* border-bottom: 5px groove red;*/
+  }
+ 
